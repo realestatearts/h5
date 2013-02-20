@@ -41,7 +41,7 @@ body {
 	cursor: pointer;
 }
 #Stage_guys_gallery:hover {
-	background-position: 0 -0 !important;
+	background-position: 0 -250px !important;
 	cursor: pointer;
 }
 .zeroOut {

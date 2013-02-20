@@ -87,10 +87,10 @@ var symbols = {
          ],
          "${_girl}": [
             ["style", "top", '804.57px'],
-            ["style", "left", '273px'],
-            ["style", "height", '312px'],
             ["style", "clip", [0,175,156,0], {valueTemplate:'rect(@@0@@px @@1@@px @@2@@px @@3@@px)'} ],
-            ["style", "background-position", [0,0], {valueTemplate:'@@0@@px @@1@@px'} ],
+            ["style", "height", '312px'],
+            ["style", "background-position", [0,-156], {valueTemplate:'@@0@@px @@1@@px'} ],
+            ["style", "left", '273px'],
             ["style", "width", '175px']
          ],
          "${_dog}": [
@@ -102,40 +102,41 @@ var symbols = {
             ["transform", "scaleY", '1.10909'],
             ["style", "overflow", 'hidden'],
             ["style", "height", '330px'],
-            ["style", "cursor", 'pointer'],
+            ["style", "clip", [0,180,165,0], {valueTemplate:'rect(@@0@@px @@1@@px @@2@@px @@3@@px)'} ],
             ["style", "background-position", [0,-180], {valueTemplate:'@@0@@px @@1@@px'} ],
-            ["style", "clip", [0,180,165,0], {valueTemplate:'rect(@@0@@px @@1@@px @@2@@px @@3@@px)'} ]
+            ["style", "cursor", 'pointer']
          ],
          "${_guys_gallery}": [
             ["style", "top", '-261px'],
-            ["style", "background-position", [0,-251], {valueTemplate:'@@0@@px @@1@@px'} ],
-            ["style", "left", '835.42px'],
-            ["style", "clip", [0,140,241,0], {valueTemplate:'rect(@@0@@px @@1@@px @@2@@px @@3@@px)'} ]
+            ["style", "clip", [0,140,241,0], {valueTemplate:'rect(@@0@@px @@1@@px @@2@@px @@3@@px)'} ],
+            ["style", "background-position", [0,0], {valueTemplate:'@@0@@px @@1@@px'} ],
+            ["style", "left", '835.42px']
          ],
-         "${_guy_contact}": [
-            ["style", "top", '781.13px'],
-            ["style", "left", '580.12px'],
-            ["style", "clip", [0,238,381,0], {valueTemplate:'rect(@@0@@px @@1@@px @@2@@px @@3@@px)'} ]
+         "${_girl_residences}": [
+            ["style", "top", '-383.21px'],
+            ["style", "clip", [0,137,233,0], {valueTemplate:'rect(@@0@@px @@1@@px @@2@@px @@3@@px)'} ],
+            ["style", "background-position", [0,0], {valueTemplate:'@@0@@px @@1@@px'} ],
+            ["style", "left", '430.24px']
          ],
          "${_Stage}": [
             ["color", "background-color", 'rgba(255,255,255,0.00)'],
-            ["style", "width", '1100px'],
+            ["style", "overflow", 'hidden'],
             ["style", "height", '800px'],
-            ["style", "overflow", 'hidden']
-         ],
-         "${_eco-centric}": [
-            ["style", "left", '36.1px'],
-            ["style", "top", '589.65px']
+            ["style", "width", '1100px']
          ],
          "${_floor-plans}": [
             ["style", "left", '627.02px'],
             ["style", "top", '291px']
          ],
-         "${_girl_residences}": [
-            ["style", "top", '-383.21px'],
-            ["style", "background-position", [0,-233], {valueTemplate:'@@0@@px @@1@@px'} ],
-            ["style", "left", '430.24px'],
-            ["style", "clip", [0,137,233,0], {valueTemplate:'rect(@@0@@px @@1@@px @@2@@px @@3@@px)'} ]
+         "${_eco-centric}": [
+            ["style", "left", '36.1px'],
+            ["style", "top", '589.65px']
+         ],
+         "${_guy_contact}": [
+            ["style", "top", '781.13px'],
+            ["style", "background-position", [0,-381], {valueTemplate:'@@0@@px @@1@@px'} ],
+            ["style", "left", '580.12px'],
+            ["style", "clip", [0,238,381,0], {valueTemplate:'rect(@@0@@px @@1@@px @@2@@px @@3@@px)'} ]
          ]
       }
    },
@@ -146,15 +147,14 @@ var symbols = {
          duration: 2839,
          autoPlay: true,
          timeline: [
-            { id: "eid277", tween: [ "style", "${_dog}", "background-position", [0,-180], { valueTemplate: '@@0@@px @@1@@px', fromValue: [0,-180]}], position: 252, duration: 0 },
-            { id: "eid271", tween: [ "style", "${_guy_contact}", "left", '580.12px', { fromValue: '580.12px'}], position: 1190, duration: 0 },
+            { id: "eid400", tween: [ "style", "${_guy_contact}", "background-position", [0,-381], { valueTemplate: '@@0@@px @@1@@px', fromValue: [0,-381]}], position: 1190, duration: 0 },
             { id: "eid151", tween: [ "style", "${_girl_residences}", "top", '191px', { fromValue: '-383.21px'}], position: 1045, duration: 559 },
             { id: "eid137", tween: [ "style", "${_girl}", "top", '483px', { fromValue: '804.57px'}], position: 609, duration: 621 },
-            { id: "eid261", tween: [ "style", "${_guys_gallery}", "background-position", [0,-251], { valueTemplate: '@@0@@px @@1@@px', fromValue: [0,-251]}], position: 0, duration: 0 },
+            { id: "eid401", tween: [ "style", "${_guys_gallery}", "background-position", [0,0], { valueTemplate: '@@0@@px @@1@@px', fromValue: [0,0]}], position: 1454, duration: 0 },
             { id: "eid177", tween: [ "style", "${_sedona}", "left", '197.81px', { fromValue: '-300px'}], position: 1880, duration: 959 },
             { id: "eid155", tween: [ "style", "${_guy_contact}", "top", '424.72px', { fromValue: '781.13px'}], position: 1190, duration: 752 },
-            { id: "eid181", tween: [ "style", "${_girl}", "background-position", [0,0], { valueTemplate: '@@0@@px @@1@@px', fromValue: [0,0]}], position: 0, duration: 0 },
-            { id: "eid215", tween: [ "style", "${_girl_residences}", "background-position", [0,-233], { valueTemplate: '@@0@@px @@1@@px', fromValue: [0,-233]}], position: 0, duration: 0 },
+            { id: "eid282", tween: [ "style", "${_girl}", "background-position", [0,-156], { valueTemplate: '@@0@@px @@1@@px', fromValue: [0,-156]}], position: 609, duration: 0 },
+            { id: "eid285", tween: [ "style", "${_girl_residences}", "background-position", [0,0], { valueTemplate: '@@0@@px @@1@@px', fromValue: [0,0]}], position: 1045, duration: 0 },
             { id: "eid168", tween: [ "style", "${_guys_gallery}", "top", '300px', { fromValue: '-261px'}], position: 1454, duration: 1148 },
             { id: "eid161", tween: [ "style", "${_dog}", "top", '270px', { fromValue: '-30px'}], position: 252, duration: 626 }         ]
       }
