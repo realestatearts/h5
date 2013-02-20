@@ -1,0 +1,112 @@
+{
+
+	"HTMLFileName":"Edge Animate Document.html",
+	"ModelData":"{\
+\"stage\": {\
+   \"timelines\": {\
+      \"Default Timeline\": {\
+            \"ElementKeyframes\": {\
+                \"${_sedona}\": [], \
+                \"${_guys_gallery}\": [], \
+                \"${_girl}\": [], \
+                \"${_dog}\": [], \
+                \"${_girl_residences}\": [], \
+                \"${_guy_contact}\": []\
+            }\
+      }\
+   }},\
+\"Preloader\": {\
+   \"timelines\": {\
+\
+   }},\
+\"Down-level\": {\
+   \"timelines\": {\
+\
+   }}\
+}",
+	"pref__general__AutoKeyframePropertiesArmed":"true",
+	"ShowRulers":"false",
+	"symbol_stage":{
+		"element_${_girl_residences}":{
+			"timelineColor2":"0x168c84",
+			"timelineColor3":"0x2a605c",
+			"timelineColor":"0x00a096",
+			"animationEnabled":"true",
+			"invisible":"false"},
+		"element_${_girl}":{
+			"timelineColor2":"0x1aa38f",
+			"timelineColor3":"0x2a6a61",
+			"timelineColor":"0x00bda4",
+			"animationEnabled":"true",
+			"invisible":"false"},
+		"element_${_sedona}":{
+			"timelineColor2":"0x107faa",
+			"timelineColor3":"0x295a6d",
+			"timelineColor":"0x008dc8",
+			"locked":"false",
+			"animationEnabled":"true"},
+		"dummyStageParentHeight":"800px",
+		"element_${_Stage_pride}":{
+			"invisible":"false"},
+		"element_${_Text}":{
+			"timelineColor2":"0x4fa275",
+			"timelineColor3":"0x456a55",
+			"timelineColor":"0x50bd82",
+			"animationEnabled":"false",
+			"invisible":"false"},
+		"element_${_asianguy}":{
+			"animationEnabled":"false"},
+		"element_${_Stage_asian_girl}":{
+			"invisible":"false"},
+		"element_${_inspired_choice}":{
+			"animationEnabled":"false"},
+		"element_${_Stage_girl}":{
+			"invisible":"false"},
+		"element_${_guys_gallery}":{
+			"timelineColor2":"0x1095d2",
+			"timelineColor3":"0x29647e",
+			"timelineColor":"0x00a9fa",
+			"animationEnabled":"true",
+			"invisible":"false"},
+		"element_${_Stage_inspired_choice}":{
+			"invisible":"false"},
+		"element_${_Stage_dog}":{
+			"invisible":"false"},
+		"element_${_Stage}":{
+			"timelineColor2":"0xcbbd71",
+			"animationEnabled":"false",
+			"timelineColor3":"0x7b7652",
+			"timelineColor":"0xeedf79"},
+		"dummyStageParentWidth":"1100px",
+		"defaultStageParentHeight":"800px",
+		"element_${_asian_girl}":{
+			"animationEnabled":"false"},
+		"element_${_Stage_asianguy}":{
+			"invisible":"false"},
+		"defaultStageParentWidth":"1100px",
+		"element_${_pride}":{
+			"animationEnabled":"false"},
+		"element_${_guy_contact}":{
+			"timelineColor2":"0x326a96",
+			"timelineColor3":"0x385063",
+			"timelineColor":"0x2f73ad",
+			"animationEnabled":"true",
+			"invisible":"false"},
+		"element_${_dog}":{
+			"timelineColor2":"0x81aa62",
+			"timelineColor3":"0x5b6c4d",
+			"timelineColor":"0x91c767",
+			"animationEnabled":"true",
+			"invisible":"false"}},
+	"TransitionIdCounter":"278",
+	"CompZoomFactor":"100",
+	"StageZoomFactor":"80",
+	"pref__general__TimelineSnapEnabled":"true",
+	"pref__general__TimelineGridSize":"1s",
+	"pixelsPerMs":"0.23562883168756",
+	"usedBOM":"false",
+	"nextElementColorIndex":"9",
+	"stage-Default Timeline_playhead_ms":"252",
+	"viewStartY":"0",
+	"pref__general__TimelineShowGrid":"true",
+	"stage-Default Timeline_mark_ms":"-1"}
